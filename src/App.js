@@ -16,7 +16,7 @@ import {
 const App = () => {
   return (
     <div className="App">
-      <div className="gradient_bg">
+      <div className="gradient__bg">
         <Navbar />
         <Header />
       </div>
@@ -32,15 +32,3 @@ const App = () => {
 };
 
 export default App;
-
-/* <div className="gradient_bg">
-        <Navbar />
-        <Header />
-      </div>
-      <Brand />
-      <WhatGPT />
-      <Features />
-      <Possibility />
-      <CTA />
-      <Blog />
-      <Footer /> */
